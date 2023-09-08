@@ -27,7 +27,12 @@ const currentUTCTime = date.toUTCString().slice(16);
 
         <p id="myTrack"><span>Track: </span> FrontEnd</p>
 
-        <a id="githubURL" href="" target="_blank">Github URL</a>
+        <a 
+          id="githubURL" 
+          href="https://github.com/vince4559/hngx_1" 
+          target="_blank">
+            Github URL
+        </a>
       </main>
   )
 }
