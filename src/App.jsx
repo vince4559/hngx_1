@@ -12,23 +12,23 @@ export default function App() {
 const currentUTCTime = date.toUTCString().slice(16);  
   return (
     <main>
-        <h1 id="slackUserName" ><span>Slack Name: </span> vincent6</h1>
+        <h1 data-testid="slackUserName"  ><span>Slack Name: </span> vincent6</h1>
         <img 
-          id="slackDisplayImage"
+          data-testid="slackDisplayImage"
           alt="vincent6"            
           src={hng}
           className='w-40 h-50 rounded-xl hover:scale-105'
         />
-        <p id="currentDayOfTheWeek"><span>Current Day Of the Week: </span> 
+        <p data-testid="currentDayOfTheWeek"><span>Current Day Of the Week: </span> 
           {currentDayOfTheWeek}
         </p>
 
-        <p id="currentUTCTime"><span>Current UTC time: </span> {currentUTCTime} </p>
+        <p data-testid="currentUTCTime"><span>Current UTC time: </span> {currentUTCTime} </p>
 
-        <p id="myTrack"><span>Track: </span> FrontEnd</p>
+        <p data-testid="myTrack"><span>Track: </span> FrontEnd</p>
 
         <a 
-          id="githubURL" 
+          data-testid="githubURL" 
           href="https://github.com/vince4559/hngx_1" 
           target="_blank">
             Github URL
