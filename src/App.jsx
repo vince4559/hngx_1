@@ -15,9 +15,9 @@ const currentUTCTime = date.toUTCString().slice(16);
         <h1 id="slackUserName" ><span>Slack Name: </span> vincent6</h1>
         <img 
           id="slackDisplayImage"
-          alt="slackUserName"            
+          alt="vincent6"            
           src={hng}
-          className='w-40 h-50 rounded-xl'
+          className='w-40 h-50 rounded-xl hover:scale-105'
         />
         <p id="currentDayOfTheWeek"><span>Current Day Of the Week: </span> 
           {currentDayOfTheWeek}
